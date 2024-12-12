@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhu's Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8e8f5;
+            font-family: 'Poppins', sans-serif;
+            color: #4d4d4d;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 30px;
+            border-bottom: 5px solid #ff69b4;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff69b4;
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding-bottom: 50px;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            color: #ff69b4;
+            font-size: 1.8em;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #ffe4e1;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #fff0f5;
+        }
+
+        table, th, td {
+            border: 1px solid #ff69b4;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        th {
+            background-color: #ffb6c1;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffb6c1;
+            color: white;
+            font-size: 1.1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Madhu's Website</h1>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I’m Madhu. I’m passionate about creativity, learning new things, and making wonderful memories. I enjoy exploring different ideas and love spending time with the people who matter most to me.</p>
+        </section>
+
+        <section>
+            <h2>My Goal for Next 5 Years</h2>
+            <p>Here are some goals I aim to achieve in the next 5 years:</p>
+            <ul>
+                <li>Complete my studies with outstanding results.</li>
+                <li>Start a fulfilling career and achieve financial independence.</li>
+                <li>Travel to different countries and experience diverse cultures.</li>
+                <li>Improve my fitness and lead a healthier lifestyle.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>My Picture</h2>
+            <img src="madhu-photo.jpg" alt="Madhu's Photo">
+        </section>
+
+        <section>
+            <h2>My Hobbies</h2>
+            <table>
+                <tr>
+                    <th>Hobby</th>
+                    <th>Frequency</th>
+                </tr>
+                <tr>
+                    <td>Reading</td>
+                    <td>Every Day</td>
+                </tr>
+                <tr>
+                    <td>Painting</td>
+                    <td>Once a Week</td>
+                </tr>
+                <tr>
+                    <td>Dancing</td>
+                    <td>Occasionally</td>
+                </tr>
+            </table>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Madhu's Personal Website
+    </footer>
+
+</body>
+</html>
